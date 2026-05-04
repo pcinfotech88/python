@@ -10,8 +10,8 @@ POSTED_FILE = "posted.json"
 client = tweepy.Client(
     consumer_key=os.environ.get("ggIDSA1ZbNY5vknriB8k7pgApxoGYssZh7CuvdIYUtmfO"),
     consumer_secret=os.environ.get("Xx2Jd7dMf6CEMeSzcm8d8FgcC3zLD0onE3j2qODeSYj7gEMZlT"),
-    access_token=os.environ.get("1937935395364257794-blONVjVUBigDKDapcr2oMQx2ZkKtpG"),
-    access_token_secret=os.environ.get("ggIDSA1ZbNY5vknriB8k7pgApxoGYssZh7CuvdIYUtmfO")
+    access_token=os.environ.get("1937935395364257794-6rrVDrge8uypTT4ynyFFgcyV2pzmQw"),
+    access_token_secret=os.environ.get("6uRsEAl2QmKuqwDUUTeY46UMUyWmBF6QrctiYwCah5RMW")
 )
 
 # Load already posted links
