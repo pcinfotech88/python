@@ -3,7 +3,7 @@ import tweepy
 import json
 import os
 
-RSS_URL = "https://yourforum.com/forums/forum-name/index.rss"
+RSS_URL = "https://leakedgems.com/forums/general-mega-pack.9/index.rss"
 POSTED_FILE = "posted.json"
 
 # Twitter API (X API v2)
