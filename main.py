@@ -8,10 +8,11 @@ POSTED_FILE = "posted.json"
 
 # Twitter API (X API v2)
 client = tweepy.Client(
-    consumer_key=os.environ.get("26oJcrJu3U6VNRcDqJBNgHypn"),
-    consumer_secret=os.environ.get("e76sjDeLp0C1r6sQo1aM4C9mSjk8TaHaPMrxv0VPULSD1b6Le2"),
-    access_token=os.environ.get("1937935395364257794-6rrVDrge8uypTT4ynyFFgcyV2pzmQw"),
-    access_token_secret=os.environ.get("6uRsEAl2QmKuqwDUUTeY46UMUyWmBF6QrctiYwCah5RMW")
+    bearer_token=None,  # not required for posting
+    consumer_key=os.environ["26oJcrJu3U6VNRcDqJBNgHypn"],
+    consumer_secret=os.environ["e76sjDeLp0C1r6sQo1aM4C9mSjk8TaHaPMrxv0VPULSD1b6Le2"],
+    access_token=os.environ["1937935395364257794-6rrVDrge8uypTT4ynyFFgcyV2pzmQw"],
+    access_token_secret=os.environ["6uRsEAl2QmKuqwDUUTeY46UMUyWmBF6QrctiYwCah5RMW"]
 )
 
 # Load already posted links
