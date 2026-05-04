@@ -8,8 +8,8 @@ POSTED_FILE = "posted.json"
 
 # Twitter API (X API v2)
 client = tweepy.Client(
-    consumer_key=os.environ.get("ggIDSA1ZbNY5vknriB8k7pgApxoGYssZh7CuvdIYUtmfO"),
-    consumer_secret=os.environ.get("Xx2Jd7dMf6CEMeSzcm8d8FgcC3zLD0onE3j2qODeSYj7gEMZlT"),
+    consumer_key=os.environ.get("26oJcrJu3U6VNRcDqJBNgHypn"),
+    consumer_secret=os.environ.get("e76sjDeLp0C1r6sQo1aM4C9mSjk8TaHaPMrxv0VPULSD1b6Le2"),
     access_token=os.environ.get("1937935395364257794-6rrVDrge8uypTT4ynyFFgcyV2pzmQw"),
     access_token_secret=os.environ.get("6uRsEAl2QmKuqwDUUTeY46UMUyWmBF6QrctiYwCah5RMW")
 )
